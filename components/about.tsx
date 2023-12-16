@@ -4,6 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import Link from "next/link";
 
 export default function About() {
   const { ref } = useSectionInView("About");
@@ -25,9 +26,19 @@ export default function About() {
         learned <span className="font-medium">front-end web development</span>.{" "}
         My core stack is <span className="font-medium">React, Next.js</span>. I
         am also familiar with TypeScript. I am always looking to learn new
-        technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a front-end
-        developer.
+        technologies. I am currently working{" "}
+        <span className="font-medium">
+          {" "}
+          as a front-end developer at{" "}
+          <Link
+            href="https://www.linkedin.com/company/egabee/about/"
+            target="_blank"
+            className="underline"
+          >
+            Egabee
+          </Link>{" "}
+          .
+        </span>
       </p>
     </motion.section>
   );
