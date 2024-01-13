@@ -1,3 +1,6 @@
+import React from "react";
+// import { LuGraduationCap } from "react-icons/lu";
+import { CgWorkAlt } from "react-icons/cg";
 import personalPortfolio from "@/public/nextjs-portfolio.png";
 import shoppingHub from "@/public/shopping-hub-ecommerce.png";
 import foodeRecipeFinder from "@/public/Foode-nextjs.png";
@@ -21,6 +24,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -78,4 +85,15 @@ export const skillsData = [
   "GraphQL",
   "Apollo",
   "Framer Motion",
+] as const;
+
+export const experiencesData = [
+  {
+    title: "Front-End Developer",
+    location: "Alexandria, Egypt",
+    description:
+      "I am currently working as a full-time front-end developer at Egabee.",
+    icon: React.createElement(CgWorkAlt),
+    date: "October - 2023",
+  },
 ] as const;

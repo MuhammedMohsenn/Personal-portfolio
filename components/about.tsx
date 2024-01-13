@@ -27,7 +27,7 @@ export default function About() {
         My core stack is <span className="font-medium">React, Next.js</span>. I
         am also familiar with TypeScript. I am always looking to learn new
         technologies. I am currently working{" "}
-        <span className="font-medium">
+        <span className="font-bold">
           {" "}
           as a front-end developer at{" "}
           <Link
