@@ -38,38 +38,38 @@ export const projectsData = [
   {
     title: "Personal portfolio",
     description:
-      "Discover my latest portfolio, crafted with Next.js and TypeScript. Experience a blend of speed, elegance, and innovation in web design.",
+      "A personal portfolio. It highlights my projects and skills with a modern, interactive design. This project helped me practice advanced front-end development and animation techniques.",
     tags: ["Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
     imageUrl: personalPortfolio,
   },
   {
     title: "Shopping Hub",
     description:
-      "Experience the future of shopping on our e-commerce platform. Dive into curated collections. The world's marketplace, now just a click away.",
+      "A simple e-commerce app. It features categories, detailed product listings, and a search bar for finding products by name. Practiced e-commerce functionalities on this project.",
     tags: ["React", "Redux toolkit", "React router dom", "hooks"],
     imageUrl: shoppingHub,
   },
   {
     title: "Foode",
     description:
-      "Discover your next meal effortlessly with our Recipe Finder! Choose a cuisine, and we'll serve up the perfect recipe. Taste the world in a click",
+      "A Food Recipe Finder app. Users can find recipes by selecting a specific country from provided options. This project helped me practice Next.js and Tailwind CSS.",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: foodeRecipeFinder,
   },
   {
     title: "Lavish",
     description:
-      "Experience banking redefined on our new landing page! With intuitive design and effortless navigation, managing your finances is a click away.",
+      "A small banking website with React.js, focusing solely on the front end. The project showcases user-friendly design and basic banking functionalities. ",
     tags: ["React", "React router dom", "hooks"],
     imageUrl: banking,
   },
-  {
-    title: "Dashboard",
-    description:
-      "Dive into our new dashboard page: sleek, intuitive, and designed for ultimate control. Efficient web interaction, now just a click away.",
-    tags: ["HTML5", "CSS3", "CSS animation"],
-    imageUrl: dashboard,
-  },
+  // {
+  //   title: "Dashboard",
+  //   description:
+  //     "Dive into our new dashboard page: sleek, intuitive, and designed for ultimate control. Efficient web interaction, now just a click away.",
+  //   tags: ["HTML5", "CSS3", "CSS animation"],
+  //   imageUrl: dashboard,
+  // },
 ] as const;
 
 export const skillsData = [
