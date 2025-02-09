@@ -41,6 +41,7 @@ export const projectsData = [
       "A personal portfolio. It highlights my projects and skills with a modern, interactive design. This project helped me practice advanced front-end development and animation techniques.",
     tags: ["Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
     imageUrl: personalPortfolio,
+    websiteUrl: "https://muhammedmohsen.vercel.app/",
   },
   {
     title: "Shopping Hub",
@@ -48,6 +49,7 @@ export const projectsData = [
       "A simple e-commerce app. It features categories, detailed product listings, and a search bar for finding products by name. Practiced e-commerce functionalities on this project.",
     tags: ["React", "Redux toolkit", "React router dom", "hooks"],
     imageUrl: shoppingHub,
+    websiteUrl: "https://shopping-hub-e-commerce-react.netlify.app/",
   },
   {
     title: "Foode",
@@ -55,6 +57,7 @@ export const projectsData = [
       "A Food Recipe Finder app. Users can find recipes by selecting a specific country from provided options. This project helped me practice Next.js and Tailwind CSS.",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: foodeRecipeFinder,
+    websiteUrl: "https://foode-recipe-finder.vercel.app/",
   },
   {
     title: "Lavish",
@@ -62,6 +65,7 @@ export const projectsData = [
       "A small banking website with React.js, focusing solely on the front end. The project showcases user-friendly design and basic banking functionalities. ",
     tags: ["React", "React router dom", "hooks"],
     imageUrl: banking,
+    websiteUrl: "https://muhammedmohsenn-banking-website.netlify.app/",
   },
   // {
   //   title: "Dashboard",
@@ -91,8 +95,8 @@ export const experiencesData = [
   {
     title: "Front-End Developer",
     location: "Alexandria, Egypt",
-    description:
-      "I am currently working as a full-time front-end developer at Egabee.",
+    // description:
+    //   "I am currently working as a full-time front-end developer at Egabee.",
     icon: React.createElement(CgWorkAlt),
     date: "October - 2023",
   },

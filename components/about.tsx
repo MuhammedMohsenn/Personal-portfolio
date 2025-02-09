@@ -4,7 +4,6 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import Link from "next/link";
 
 export default function About() {
   const { ref } = useSectionInView("About");
@@ -25,8 +24,9 @@ export default function About() {
         pursue my passion for programming. I enrolled in a coding bootcamp and
         learned <span className="font-medium">front-end web development</span>.{" "}
         My core stack is <span className="font-medium">React, Next.js</span>. I
-        am also familiar with TypeScript. I am always looking to learn new
-        technologies. I am currently working{" "}
+        am also comfortable with TypeScript. I am always looking to learn new
+        technologies.
+        {/* I am currently working{" "}
         <span className="font-bold">
           {" "}
           as a front-end developer at{" "}
@@ -38,7 +38,7 @@ export default function About() {
             Egabee
           </Link>{" "}
           .
-        </span>
+        </span> */}
       </p>
     </motion.section>
   );
