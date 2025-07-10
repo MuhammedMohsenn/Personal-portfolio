@@ -63,11 +63,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Muhammed Mohsen.</span> I'm a{" "}
-        <span className="font-bold">front-end web developer</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold block">Hi, I'm Muhammed Mohsen</span>
+        <span className="font-bold">Front-end Developer</span> specializing in
+        high-performance React applications Building intuitive experiences with:
+        Next.js · TypeScript · Tailwind
       </motion.h1>
 
       <motion.div
