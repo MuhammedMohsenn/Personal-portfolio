@@ -12,7 +12,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Muhammed Mohsen | Personal Portfolio",
   description:
-    "Muhammed Mohsen is a Front-end web developer with one year of experience working in React/Next.js",
+    "Muhammed Mohsen is a Front-end web developer with 2 years of experience working in React/Next.js, Typescript",
+  other: {
+    "google-site-verification": "DdgjZKRc2Qrjr3qU8Y0GaUpgtwHsxT0Tx7BrBmmlt9g",
+  },
 };
 
 export default function RootLayout({
