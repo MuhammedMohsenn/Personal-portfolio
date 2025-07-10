@@ -5,7 +5,7 @@ import personalPortfolio from "@/public/nextjs-portfolio.png";
 import shoppingHub from "@/public/shopping-hub-ecommerce.png";
 import foodeRecipeFinder from "@/public/Foode-nextjs.png";
 import banking from "@/public/Banking-website.png";
-import dashboard from "@/public/Dashboard.png";
+// import dashboard from "@/public/Dashboard.png";
 
 export const links = [
   {
@@ -24,10 +24,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  // {
-  //   name: "Experience",
-  //   hash: "#experience",
-  // },
+  {
+    name: "Experience",
+    hash: "#experience",
+  },
   {
     name: "Contact",
     hash: "#contact",
@@ -94,10 +94,10 @@ export const skillsData = [
 export const experiencesData = [
   {
     title: "Front-End Developer",
-    location: "Alexandria, Egypt",
-    // description:
-    //   "I am currently working as a full-time front-end developer at Egabee.",
+    location: "Alexandria, Egypt (remote)",
+    description:
+      "Engineered React-based dashboards for Egabee's Web3 analytics platform. Partnered with blockchain backend teams to visualize smart contract interactions and transaction flows. Implemented responsive data displays for real-time monitoring of EVM networks.",
     icon: React.createElement(CgWorkAlt),
-    date: "October - 2023",
+    date: "October - 2023 / Jan - 2025",
   },
 ] as const;
