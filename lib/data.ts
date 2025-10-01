@@ -41,7 +41,7 @@ export const projectsData = [
       "A personal portfolio. It highlights my projects and skills with a modern, interactive design. This project helped me practice advanced front-end development and animation techniques.",
     tags: ["Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
     imageUrl: personalPortfolio,
-    websiteUrl: "https://muhammedmohsen.vercel.app/",
+    websiteUrl: "https://muhammed-mohsen.netlify.app/",
   },
   {
     title: "Shopping Hub",
@@ -57,7 +57,7 @@ export const projectsData = [
       "A Food Recipe Finder app. Users can find recipes by selecting a specific country from provided options. This project helped me practice Next.js and Tailwind CSS.",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: foodeRecipeFinder,
-    websiteUrl: "https://foode-recipe-finder.vercel.app/",
+    websiteUrl: "https://foode-recipe-finder.netlify.app/",
   },
   {
     title: "Lavish",
