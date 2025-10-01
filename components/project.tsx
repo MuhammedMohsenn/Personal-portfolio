@@ -96,7 +96,6 @@ export default function Project({
         group-even:group-hover:rotate-2
 
         group-even:right-[initial] group-even:-left-40"
-          unoptimized
         />
       </section>
     </motion.div>
