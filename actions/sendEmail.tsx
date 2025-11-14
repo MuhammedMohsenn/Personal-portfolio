@@ -15,7 +15,6 @@ export default function ContactForm() {
     <form
       name="contact"
       method="POST"
-      data-netlify="true"
       onSubmit={() => setState({ submitted: true })}
       className="flex flex-col space-y-4"
     >
