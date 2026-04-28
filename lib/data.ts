@@ -5,6 +5,8 @@ import personalPortfolio from "@/public/nextjs-portfolio.png";
 import shoppingHub from "@/public/shopping-hub-ecommerce.png";
 import foodeRecipeFinder from "@/public/Foode-nextjs.png";
 import banking from "@/public/Banking-website.png";
+import gAIa from "@/public/gAIa.png";
+import gaiaLandingPage from "@/public/gaiaLandingPage.png";
 // import dashboard from "@/public/Dashboard.png";
 
 export const links = [
@@ -33,37 +35,59 @@ export const links = [
     hash: "#contact",
   },
 ] as const;
-
 export const projectsData = [
   {
-    title: "Personal portfolio",
+    title: "gAIa — Landing Page",
     description:
-      "A personal portfolio. It highlights my projects and skills with a modern, interactive design. This project helped me practice advanced front-end development and animation techniques.",
-    tags: ["Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
-    imageUrl: personalPortfolio,
-    websiteUrl: "https://muhammed-mohsen.netlify.app/",
+      "Marketing and product landing page for the gAIa platform by Lucidminds. Showcases the living tree map concept, ecosystem services visualization, and community contribution model. Backed by Dutch government partners RVO and PNH.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    imageUrl: gaiaLandingPage,
+    websiteUrl: "https://gaia.gus.earth",
   },
+  {
+    title: "gAIa — AI Tree Map",
+    description:
+      "Interactive urban forest map built for Lucidminds. Users explore city trees, add new ones, and chat with an AI assistant that knows everything about tree species, urban ecology, and environmental impact. Built with real municipal datasets and live AI integration.",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Mapbox",
+      "Zustand",
+      "AI/LLM",
+      "Tailwind CSS",
+    ],
+    imageUrl: gAIa,
+    websiteUrl: "https://ai.gus.earth",
+  },
+  // {
+  //   title: "Personal Portfolio",
+  //   description:
+  //     "This portfolio — built to reflect my work and technical range. Features scroll-driven animations, dark mode, section-based navigation, and a clean, responsive layout designed to feel fast and intentional.",
+  //   tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+  //   imageUrl: personalPortfolio,
+  //   websiteUrl: "https://muhammed-mohsen.netlify.app/",
+  // },
   {
     title: "Shopping Hub",
     description:
-      "A simple e-commerce app. It features categories, detailed product listings, and a search bar for finding products by name. Practiced e-commerce functionalities on this project.",
-    tags: ["React", "Redux toolkit", "React router dom", "hooks"],
+      "Full-featured e-commerce frontend with category filtering, product detail pages, and real-time search. Focused on scalable state management and a smooth shopping UX.",
+    tags: ["React", "Redux Toolkit", "React Router", "Hooks"],
     imageUrl: shoppingHub,
     websiteUrl: "https://shopping-hub-e-commerce-react.netlify.app/",
   },
   {
-    title: "Foode",
+    title: "Foode — Recipe Finder",
     description:
-      "A Food Recipe Finder app. Users can find recipes by selecting a specific country from provided options. This project helped me practice Next.js and Tailwind CSS.",
-    tags: ["React", "Next.js", "Tailwind"],
+      "Recipe discovery app that lets users browse meals by country of origin. Clean UI with dynamic filtering and API-driven content, built to practice Next.js data fetching patterns.",
+    tags: ["React", "Next.js", "Tailwind CSS"],
     imageUrl: foodeRecipeFinder,
     websiteUrl: "https://foode-recipe-finder.netlify.app/",
   },
   {
-    title: "Lavish",
+    title: "Lavish — Banking UI",
     description:
-      "A small banking website with React.js, focusing solely on the front end. The project showcases user-friendly design and basic banking functionalities. ",
-    tags: ["React", "React router dom", "hooks"],
+      "Frontend concept for a modern banking product. Focused on trust-building UI patterns, clear information hierarchy, and a polished user experience for financial interfaces.",
+    tags: ["React", "React Router", "Hooks"],
     imageUrl: banking,
     websiteUrl: "https://muhammedmohsenn-banking-website.netlify.app/",
   },
