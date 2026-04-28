@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
@@ -18,43 +17,49 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+
       <p className="mb-3">
-        My journey from <span className="font-medium">Quality Control</span> to
-        tech wasn't a pivot – it was an evolution. At{" "}
-        <span className="font-medium">Egabee</span>, a Web3 development
-        platform, I engineered UIs for real-time smart contract monitoring
-        dashboards, collaborating with design and backend teams to transform
-        blockchain data into actionable user insights.
+        Over <span className="font-medium">3 years</span>, I've grown from a{" "}
+        <span className="font-medium">Quality Control</span> background into a
+        front-end developer who builds interfaces people actually enjoy using —
+        across <span className="font-medium">Web3</span>,{" "}
+        <span className="font-medium">AI</span>, and{" "}
+        <span className="font-medium">data-heavy platforms</span>.
       </p>
 
       <p className="mb-3">
-        <span className="font-medium">My technical approach</span>:<br />
-        ⚡️ <span className="font-medium">React/Next.js Specialist</span>: Built
-        performant interfaces for analytics-heavy Web3 products
+        At <span className="font-medium">Egabee</span>, I engineered React
+        dashboards for real-time smart contract monitoring, translating raw
+        blockchain data into clear, actionable UIs for EVM network analysis. At{" "}
+        <span className="font-medium">Lucidminds</span> (Amsterdam), I build and
+        maintain a suite of AI-powered products — including{" "}
+        <span className="font-medium">gAIa</span>, an interactive urban tree map
+        where users explore, contribute, and chat with trees through an AI
+        assistant, and <span className="font-medium">Dataville</span>, a
+        privacy-preserving data science platform backed by the City of
+        Amsterdam.
+      </p>
+
+      <p className="mb-3">
+        <span className="font-medium">What I bring to a team:</span>
         <br />
-        ⚡️ <span className="font-medium">UI Problem-Solver</span>: Scaled
-        dashboard UX for Egabee's multi-chain monitoring tools
+        ⚡️ <span className="font-medium">React / Next.js</span> — performant,
+        scalable interfaces for complex data environments
         <br />
-        ⚡️ <span className="font-medium">Cross-Functional Partner</span>:
-        Worked with backend teams on SDK integration and data flow optimization
+        ⚡️ <span className="font-medium">Design-to-code</span> — close
+        collaboration with designers to ship pixel-accurate, accessible UIs
+        <br />
+        ⚡️ <span className="font-medium">Cross-functional mindset</span> —
+        comfortable bridging frontend with blockchain, AI, and backend teams
       </p>
 
       <p className="mb-3">
-        Over 2 years, I've transformed complex requirements like Egabee's
-        <span className="font-medium">
-          {" "}
-          real-time contract state visualization
-        </span>{" "}
-        into intuitive interfaces. My background gives me a unique edge: I
-        architect solutions balancing technical scalability with user psychology
-        – especially for data-dense environments like blockchain explorers.
+        I care about the{" "}
+        <span className="font-medium">details that users feel</span> — fast load
+        times, intuitive flows, and interfaces that make complex systems
+        approachable. Whether it's a Web3 explorer or an AI-powered map, I build
+        with both technical precision and user empathy in mind.
       </p>
-
-      {/* <p>
-        When I'm not optimizing rendering performance, I explore Web3 UI
-        patterns and mentor junior developers in component architecture best
-        practices.
-      </p> */}
     </motion.section>
   );
 }
