@@ -119,11 +119,21 @@ export const skillsData = [
 
 export const experiencesData = [
   {
+    company: "Egabee",
     title: "Front-End Developer",
     location: "Alexandria, Egypt (remote)",
     description:
       "Engineered React-based dashboards for Egabee's Web3 analytics platform. Partnered with blockchain backend teams to visualize smart contract interactions and transaction flows. Implemented responsive data displays for real-time monitoring of EVM networks.",
     icon: React.createElement(CgWorkAlt),
     date: "October - 2023 / Jan - 2025",
+  },
+  {
+    company: "Lucidminds AI",
+    title: "Front-End Developer",
+    location: "Amsterdam, Netherlands (remote)",
+    description:
+      "Built and maintained multiple web products for Lucidminds — an Amsterdam-based AI company. Core project: ai.gus.earth, an interactive map where users can explore, add, and chat with trees via an AI assistant trained on urban forestry data. Also developed gaia.gus.earth (living tree map platform), run.gus.earth (GUS digital twin simulation for urban forest impact modeling), dataville-global (privacy-preserving data science platform backed by the City of Amsterdam & RVO), and contributed to the main lucidminds.ai site.",
+    icon: React.createElement(CgWorkAlt),
+    date: "April 2025 / Present",
   },
 ] as const;

@@ -22,6 +22,7 @@ export default function Experience() {
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
+              visible={true}
               contentStyle={{
                 background:
                   theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
@@ -44,6 +45,9 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
+              <p className="!mt-0 text-sm font-semibold text-gray-500 dark:text-white/50 uppercase tracking-wider">
+                {item.company}
+              </p>
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
